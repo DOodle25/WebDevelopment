@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(i2.png);
+        }
+        header {
+            background-color: #2E4053 ;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color:#5D6D7E ;
+            overflow: hidden;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+        footer {
+            background-color: #2E4053 ;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; 
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        h2{
+            color: #85929E ;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+            float: left;
+        }
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;        
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropbtn2 {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit; 
+            margin: 0; 
+        }
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit; 
+            margin: 0; 
+        }
+        .navbar a:hover, .dropdown:hover .dropbtn{
+            background-color: grey;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Homepage</h1>
+    </header>
+    <nav>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Sections</button>
+                <div class="dropdown-content">
+                    <a href="#section1">Section 1</a>
+                    <a href="#section2">Section 2</a>
+                    <a href="#section3">Section 3</a>
+                </div>
+            </div>
+        <a href="somewhere.html">Somewhere</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="section1">
+            <h2><b>Welcome</b></h2>
+            <p><b>Computer science</b> is the study of <b><i>computation</i></b>, <b><i>information</i></b>, and <b><i>automation</i></b>.[1][2][3] Computer science spans theoretical disciplines (such as algorithms, theory of computation, and information theory) to applied disciplines (including the design and implementation of hardware and software).[4][5][6] Though more often considered an academic discipline, computer science is closely related to computer programming.[7]
+
+                Algorithms and data structures are central to computer science.[8] The theory of computation concerns abstract models of computation and general classes of problems that can be solved using them. The fields of cryptography and computer security involve studying the means for secure communication and for preventing security vulnerabilities. Computer graphics and computational geometry address the generation of images. Programming language theory considers different ways to describe computational processes, and database theory concerns the management of repositories of data. Human–computer interaction investigates the interfaces through which humans and computers interact, and software engineering focuses on the design and principles behind developing software. Areas such as operating systems, networks and embedded systems investigate the principles and design behind complex systems. Computer architecture describes the construction of computer components and computer-operated equipment. Artificial intelligence and machine learning aim to synthesize goal-orientated processes such as problem-solving, decision-making, environmental adaptation, planning and learning found in humans and animals. Within artificial intelligence, computer vision aims to understand and process image and video data, while natural language processing aims to understand and process textual and linguistic data.</p>
+            <img src="i2.png" alt="Image not loading" style="max-width: 100%; border-radius: 8px;">
+        </section>
+
+        <section id="section2" class="login-container">
+            <h2>Login Here</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </section>
+        <br>
+        <section id="section3" class="map-container">
+            <br>
+            <h2>Display Map</h2>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14767.4499758535!2d73.35906865000001!3d22.28319805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1709805017086!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="navbar">
+            <a href="conteact.html">Contact</a>
+            <a href="somewhere.html">Somewhere</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+    </footer>
+
+</body>
+</html>

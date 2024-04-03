@@ -1,0 +1,365 @@
+/* Body */
+body.bg-background {
+  background-color: white;
+  color: black;
+}
+
+body.flex {
+  display: flex;
+}
+
+body.items-center {
+  align-items: center;
+}
+
+body.justify-center {
+  justify-content: center;
+}
+
+body.text-muted-foreground {
+  color: black;
+}
+
+body.dark:bg-dark-background {
+  background-color: black;
+}
+
+body.dark:text-gray-400 {
+  color: white;
+}
+
+/* Container Grid */
+.grid {
+  display: grid;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.md\:grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.md\:px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.lg\:gap-24 {
+  gap: 6rem;
+}
+
+.xl\:gap-32 {
+  gap: 8rem;
+}
+
+/* Left Column */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+/* Heading */
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.02em;
+}
+
+.sm\:text-4xl {
+  font-size: 2.25rem;
+}
+
+.md\:text-5xl {
+  font-size: 3rem;
+}
+
+/* Regular CSS for max-width */
+.max-width-600 {
+  max-width: 600px;
+}
+
+.text-gray-500 {
+  color: #808080;
+}
+
+/* Regular CSS for text sizes and colors */
+.md-text-xl-relaxed {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.lg-text-base-relaxed {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.xl-text-xl-relaxed {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.dark-text-gray-400 {
+  color: grey;
+}
+
+
+/* Signup Form */
+.max-w-sm {
+  max-width: 20rem;
+}
+
+/* Email Input Field */
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-input {
+  border-color: black;
+}
+
+.bg-background {
+  background-color: white;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.ring-offset-background {
+  --ring-offset-color: black;
+}
+
+.file:border-0 {
+  border: none;
+}
+
+.file:bg-transparent {
+  background-color: transparent;
+}
+
+.file:text-sm {
+  font-size: 0.875rem;
+}
+
+.file:font-medium {
+  font-weight: 500;
+}
+
+.placeholder:text-muted-foreground::placeholder {
+  color:black;
+}
+
+.focus-visible\:outline-none:focus-visible {
+  outline: none;
+}
+
+.focus-visible\:ring-2:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring-offset-color), 0 0 0 4px black;
+}
+
+.focus-visible\:ring-ring:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring-offset-color), 0 0 0 4px black;
+}
+
+.focus-visible\:ring-offset-2:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring-offset-color), 0 0 0 4px black;
+}
+
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+/* Email Icon */
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.custom-left-3-5 {
+  left: 0.875rem;
+}
+
+
+/* Signup Button */
+.inline-flex {
+  display: inline-flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+
+.hover:bg-primary-90:hover {
+  background-color: rgba(59, 130, 246, 0.9);
+}
+
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Right Column - Illustration */
+.items-center {
+  align-items: center;
+}
+
+/* Image */
+.aspect-1-5 {
+  aspect-ratio: 1.5;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.object-center {
+  object-position: center center;
+}
+/* Email Input Field with Email Icon */
+.relative {
+  position: relative;
+}
+
+/* Updated Email Input Field with Email Icon */
+.input-container {
+  position: relative;
+}
+
+/* Email Icon Positioning */
+.svg-icon {
+  position: absolute;
+  height: 1.25rem;
+  width: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.75rem;
+}
+
+/* Signup Button Styles */
+.button-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 0.375rem;
+}
+
+/* Updated Signup Button Styles */
+.black-bg-button {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Hover Effect for Black Signup Button */
+.black-bg-button:hover {
+  background-color: #111; /* Darker shade for hover effect */
+}
+

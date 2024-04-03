@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>District Integrated Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="flex items-center justify-center bg-background text-muted-foreground dark:bg-dark-background dark:text-gray-400">
+
+    <!-- Container Grid -->
+    <div class="grid gap-12 min-h-screen px-4 pb-12 md:grid-cols-2 md:px-6 lg:gap-24 xl:gap-32">
+
+        <!-- Left Column -->
+        <div class="flex flex-col justify-center gap-4">
+            <!-- Heading -->
+            <div class="space-y-1.5">
+                <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">District Integrated Dashboard</h1>
+                <!-- Subtitle/Description -->
+                <p class="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                    A single platform for all your district needs.
+                </p>
+            </div>
+
+            <!-- Signup Form -->
+            <form class="flex w-full max-w-sm flex-col gap-2">
+                <!-- Email Input Field with Email Icon -->
+                <div class="relative rounded-md shadow-sm custom-left-3-5">
+                    <input
+                        class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full pl-10"
+                        placeholder="Enter your email"
+                        type="email"
+                    />
+                    <!-- Email Icon -->
+                    <svg
+                        class="svg-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </div>
+
+                <!-- Signup Button -->
+                <button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium black-bg-button hover:bg-primary/90 h-10 px-4 py-2"
+                    type="submit"
+                >
+                    Sign Up
+                </button>
+            </form>
+        </div>
+
+        <!-- Right Column - Illustration -->
+        <div class="grid items-center justify-center">
+            <img
+                src="govimg.png"
+                width="600"
+                height="400"
+                alt="Illustration"
+                class="aspect-[1.5] overflow-hidden rounded-lg object-contain object-center"
+            />
+        </div>
+
+    </div>
+
+    <!-- Add your JavaScript script if needed -->
+
+</body>
+
+</html>
+
+
+

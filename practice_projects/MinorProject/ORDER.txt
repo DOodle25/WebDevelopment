@@ -1,0 +1,24 @@
+(a) Heading	14 (Bold)
+(b) Sub Heading	12 (Bold)
+(c) Simple Text	12
+Font Style	Times New Roman
+Margin	Left: 1.25, Right: 1, Top: 1, Bottom: 1
+Text Alignment	Text must be Justified
+Line Spacing	1.25
+Color of Text	Black
+Table name font size	9
+Fig no. & name font size	9
+
+
+
+
+
+1.FIRST PAGE (Same as Cover Page)	
+2.CERTIFICATE
+3.DECLARATION
+4.ACKNOWLEDGEMENT
+5.LIST OF FIGURES
+6.LIST OF TABLES
+7.LIST OF ABBREVIATIONS
+8.ABSTRACT
+9.INDEX (with Page No.)

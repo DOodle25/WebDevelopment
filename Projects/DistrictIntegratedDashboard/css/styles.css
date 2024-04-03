@@ -1,0 +1,162 @@
+*{
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #034c99;
+    color: #fff;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;;
+}
+
+.options {
+    display: flex;
+    gap: 1rem;
+}
+
+.options button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.dropdown-menu {
+    display: none;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.5rem;
+}
+.search-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.search-holder {
+    width: 350px;
+    margin-left: 20px;
+}
+
+.advanced-search {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search {
+    display: flex;
+    gap: 0.5rem;
+    color: #034c99; /* Blue text color */
+    font-style: italic;
+}
+
+.quick-links {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 2rem;
+    font-family: Arial, sans-serif; /* Set font family */
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #034c99; /* Blue text color */
+}
+
+.logo>img {
+    width: 38px;
+    height: 57px;
+}
+
+.nav-text{
+    display: flex;
+    gap: 3rem;
+    padding: 0.3rem 0.1rem;
+    font-family: Arial, sans-serif;
+}
+
+.user-logo{
+    width: 60px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.card{
+    margin-right: 35px;
+    margin-top: 35px;
+    
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-body{
+}
+
+.card:hover .card-text{
+    display: block;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-right: 40px;
+    margin-top: 40px;
+    transform: scale(1.05); /* Scale the hovered card */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-title{
+
+}
+
+.card-text{
+    display: none;
+}
+
+.btn btn-primary{
+
+}
+/* .search-main{
+    margin-top:10%;
+    padding: 0 30px;
+} */
+
